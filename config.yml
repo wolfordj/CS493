@@ -1,0 +1,15 @@
+baseURL: "http://web.engr.oregonstate.edu/~wolfordj/cs493/"
+languageCode: "en-us"
+title: "CS 493"
+theme: "online-cs"
+publishDir: "public_html"
+relativeURLS: true
+canonifyURLs: true
+pygmentsUseClassic: true
+pygmentsCodeFences: true
+
+params:
+  ClassNumber: "CS493"
+
+taxonomies:
+  category: "categories"
