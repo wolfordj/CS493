@@ -2,6 +2,7 @@
 title: "REST API Usage"
 description: "This module should introduce you to the concept of using a REST API which will likely be different from the APIs you may have made or interacted with in the past."
 categories: ["Module"]
+weight: 10
 ---
 
 {{< title >}}

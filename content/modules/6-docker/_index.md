@@ -2,6 +2,7 @@
 title: "Introduction to Docker"
 description: "Docker is a really great tool for configuring and deploying virtual machines in the cloud. We are going to look at how it works and try deploying some Docker containers."
 categories: ["Module"]
+weight: 30
 ---
 
 {{< title >}}

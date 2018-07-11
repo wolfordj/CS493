@@ -2,6 +2,7 @@
 title: "Advanced REST API Concepts"
 description: "Having made a generally functional REST API this will go into some more complex concepts like paging and caching."
 categories: ["Module"]
+weight: 25
 ---
 
 {{< title >}}

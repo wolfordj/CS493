@@ -2,6 +2,7 @@
 title: "Making an OAuth 2.0 Provider"
 description: "You previously worked with other OAuth 2.0 providers. This module will have you make your own OAuth 2.0 provider for others to work with."
 categories: ["Module"]
+weight: 40
 ---
 
 {{< title >}}

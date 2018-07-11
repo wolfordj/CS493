@@ -2,6 +2,7 @@
 title: "Wrap-up"
 description: "This module gives you some time to complete the final project while offering a bit of parting wisdom in the way of what is coming on the horizon and how to test some of your applications."
 categories: ["Module"]
+weight: 50
 ---
 
 {{< title >}}

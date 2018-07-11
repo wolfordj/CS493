@@ -2,6 +2,7 @@
 title: "Some Bits of Security"
 description: "Security in the cloud is a HUGE topic. This will cover authorization and OAuth 2.0, a tiny sliver of security, but an important sliver to be able to play well with others."
 categories: ["Module"]
+weight: 35
 ---
 
 {{< title >}}

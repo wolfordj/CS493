@@ -2,6 +2,7 @@
 title: "Yet More REST API Creation"
 description: "Making REST APIs can be a bit tricky. So this module expands upon the prior giving you some more time to get this built."
 categories: ["Module"]
+weight: 20
 ---
 
 {{< title >}}

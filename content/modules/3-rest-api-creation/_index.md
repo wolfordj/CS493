@@ -1,7 +1,8 @@
 ---
-title: ""
-description: ""
+title: "REST API Creation"
+description: "Having spent some time interacting with a REST API this module will introduce the concept of making a REST API that others can interact with."
 categories: ["Module"]
+weight: 15
 ---
 
 {{< title >}}

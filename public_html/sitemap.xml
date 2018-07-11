@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/syllabus/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/1-course-rest-cloud-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/2-rest-api-use/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/3-rest-api-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/4-more-rest-api-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/5-advanced-rest-api/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/6-docker/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/7-security/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/8-oauth-provider-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/9-nosql/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/10-testing-wrap-up/</loc>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/module/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/syllabus/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

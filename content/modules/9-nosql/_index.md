@@ -2,6 +2,7 @@
 title: "Non-Relational Databases"
 description: "Non-relational databases offer a very different set of pros and cons from traditional relational databases. This module looks at the differences."
 categories: ["Module"]
+weight: 45
 ---
 
 {{< title >}}

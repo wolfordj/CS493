@@ -2,6 +2,7 @@
 title: "Course introduction, cloud introduction and REST introduction"
 description: "This module is designed to give you a basic outline for the course and to give you an idea about why we care about cloud computing and what this whole REST thing is about."
 categories: ["Module"]
+weight: 5
 ---
 
 {{< title >}}
