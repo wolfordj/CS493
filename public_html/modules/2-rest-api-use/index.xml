@@ -2,13 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>REST API Usage on CS 493</title>
-    <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/2-rest-api-use/</link>
+    <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/</link>
     <description>Recent content in REST API Usage on CS 493</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/2-rest-api-use/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction to REST</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</guid>
+      <description> Introduction to REST Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Review of HTTP Verbs</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</guid>
+      <description> Review of HTTP Verbs Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Common Data Formats</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/3-data-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/3-data-formats/</guid>
+      <description> Common Data Formats Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Demo of REST API Use</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</guid>
+      <description> Demo of REST API Use Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
     
   </channel>
 </rss>

@@ -3,71 +3,136 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/syllabus/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/1-course-overview/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/1-course-rest-cloud-overview/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/1-url-selection/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/2-rest-api-use/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/3-rest-api-creation/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-internal-links/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/4-more-rest-api-creation/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/5-advanced-rest-api/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/syllabus/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/6-docker/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/2-cloud-overview/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/7-security/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/8-oauth-provider-creation/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/2-oo-practices/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/9-nosql/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-pagination/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/10-testing-wrap-up/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</loc>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/3-data-formats/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-tools-setup/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-collections/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-docker/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-security/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-oauth-provider-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/10-testing-wrap-up/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/module/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/categories/exploration/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/categories/module/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/syllabus/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/categories/syllabus/</loc>
     <priority>0</priority>
   </url>
   

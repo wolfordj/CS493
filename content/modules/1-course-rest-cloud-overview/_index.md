@@ -8,18 +8,17 @@ weight: 5
 {{< title >}}
 ## Introduction
 <!--- Introduce the topic in this section -->
+Welcome to Cloud application development. This module will give you a basic overview of the class, go over some basic cloud topics and give you some time to focus on making sure you can get the required tools set up and working before there is any serious homework to be done.
 
 ## Key Questions
-<!--- List  key questions
-- Key question 1
-- Key question 2
-    - Key question 2a
-    - Key question 2b
- -->
+- What is cloud computing?
+- What are the recommending tools and software to be used in this class?
+- What does the general course workload look like?
 
 
 ## Assignment Overview
 <!--- Give a general overview of the sort of assignment(s) students will do during the week -->
+The assignment this week involves a very minimal amount of writing code. Instead you are tasked with getting some basic hello world applications up and running to prove both to yourself and the instructor that your computer and accounts are set up to let you be successful in this course.
 
 ## Explore the Topics
 <!--- An automatically generated list of explore topics from the same directory as this overview. Generated from the frontmatter, make sure to fill in the title, description and include "Exploration" in the categories! -->

@@ -2,13 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Advanced REST API Concepts on CS 493</title>
-    <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/5-advanced-rest-api/</link>
+    <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/</link>
     <description>Recent content in Advanced REST API Concepts on CS 493</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/5-advanced-rest-api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RESTful Links</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-internal-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-internal-links/</guid>
+      <description> RESTful Links Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Pagination in REST</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-pagination/</guid>
+      <description> Pagination in REST Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
     
   </channel>
 </rss>

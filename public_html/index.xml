@@ -2,13 +2,148 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CS 493</title>
-    <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/</link>
+    <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/</link>
     <description>Recent content on CS 493</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://web.engr.oregonstate.edu/~wolfordj/cs493/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Course Overview</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/1-course-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/1-course-overview/</guid>
+      <description> Course Overview Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Deciding on URLs</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/1-url-selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/1-url-selection/</guid>
+      <description> Deciding on URLs Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Introduction to REST</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</guid>
+      <description> Introduction to REST Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>RESTful Links</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-internal-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-internal-links/</guid>
+      <description> RESTful Links Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>RESTful Relationships</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</guid>
+      <description> RESTful Relationships Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing Overview</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/2-cloud-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/2-cloud-overview/</guid>
+      <description> Cloud Computing Overview Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Objects in Good API Design</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/2-oo-practices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/2-oo-practices/</guid>
+      <description> Objects in Good API Design Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Pagination in REST</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-pagination/</guid>
+      <description> Pagination in REST Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>REST Case Study One</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</guid>
+      <description> REST Case Study One Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Review of HTTP Verbs</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</guid>
+      <description> Review of HTTP Verbs Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Common Data Formats</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/3-data-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/3-data-formats/</guid>
+      <description> Common Data Formats Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>REST Case Study Two</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</guid>
+      <description> REST Case Study Two Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Tools and Software Setup</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-tools-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-tools-setup/</guid>
+      <description> Tools and Software Setup Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Collections of Resources</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-collections/</guid>
+      <description> Collections of Resources Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Demo of REST API Use</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</guid>
+      <description> Demo of REST API Use Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
     
   </channel>
 </rss>

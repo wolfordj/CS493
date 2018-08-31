@@ -2,13 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yet More REST API Creation on CS 493</title>
-    <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/4-more-rest-api-creation/</link>
+    <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/</link>
     <description>Recent content in Yet More REST API Creation on CS 493</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/4-more-rest-api-creation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RESTful Relationships</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</guid>
+      <description> RESTful Relationships Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>REST Case Study One</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</guid>
+      <description> REST Case Study One Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>REST Case Study Two</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</guid>
+      <description> REST Case Study Two Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
     
   </channel>
 </rss>

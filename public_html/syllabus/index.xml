@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus on CS 493</title>
-    <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/syllabus/</link>
+    <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/syllabus/</link>
     <description>Recent content in Syllabus on CS 493</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://web.engr.oregonstate.edu/~wolfordj/cs493/syllabus/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/syllabus/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

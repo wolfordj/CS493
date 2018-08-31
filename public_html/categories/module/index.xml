@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Module on CS 493</title>
-    <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/module/</link>
+    <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/categories/module/</link>
     <description>Recent content in Module on CS 493</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://web.engr.oregonstate.edu/~wolfordj/cs493/categories/module/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/categories/module/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Advanced REST API Concepts</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/5-advanced-rest-api/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/5-advanced-rest-api/</guid>
-      <description> Advanced REST API Concepts Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/</guid>
+      <description> Advanced REST API Concepts Introduction Key Questions Assignment Overview Explore the Topics RESTful LinksPagination in RESTAdditional Resources Review </description>
     </item>
     
     <item>
       <title>Course introduction, cloud introduction and REST introduction</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/1-course-rest-cloud-overview/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/1-course-rest-cloud-overview/</guid>
-      <description> Course introduction, cloud introduction and REST introduction Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/</guid>
+      <description> Course introduction, cloud introduction and REST introduction Introduction Key Questions Assignment Overview Explore the Topics Course OverviewCloud Computing OverviewTools and Software SetupAdditional Resources Review </description>
     </item>
     
     <item>
       <title>Introduction to Docker</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/6-docker/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/6-docker/</guid>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-docker/</guid>
       <description> Introduction to Docker Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
     </item>
     
     <item>
       <title>Making an OAuth 2.0 Provider</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/8-oauth-provider-creation/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-oauth-provider-creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/8-oauth-provider-creation/</guid>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-oauth-provider-creation/</guid>
       <description> Making an OAuth 2.0 Provider Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
     </item>
     
     <item>
       <title>Non-Relational Databases</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/9-nosql/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/9-nosql/</guid>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/</guid>
       <description> Non-Relational Databases Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
     </item>
     
     <item>
       <title>REST API Creation</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/3-rest-api-creation/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/3-rest-api-creation/</guid>
-      <description> REST API Creation Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/</guid>
+      <description> REST API Creation Introduction Key Questions Assignment Overview Explore the Topics Deciding on URLsObjects in Good API DesignCollections of ResourcesAdditional Resources Review </description>
     </item>
     
     <item>
       <title>REST API Usage</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/2-rest-api-use/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/2-rest-api-use/</guid>
-      <description> REST API Usage Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/</guid>
+      <description> REST API Usage Introduction Key Questions Assignment Overview Explore the Topics Introduction to RESTReview of HTTP VerbsCommon Data FormatsDemo of REST API UseAdditional Resources Review </description>
     </item>
     
     <item>
       <title>Some Bits of Security</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/7-security/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/7-security/</guid>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-security/</guid>
       <description> Some Bits of Security Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
     </item>
     
     <item>
       <title>Wrap-up</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/10-testing-wrap-up/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/10-testing-wrap-up/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/10-testing-wrap-up/</guid>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/10-testing-wrap-up/</guid>
       <description> Wrap-up Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
     </item>
     
     <item>
       <title>Yet More REST API Creation</title>
-      <link>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/4-more-rest-api-creation/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://web.engr.oregonstate.edu/~wolfordj/cs493/modules/4-more-rest-api-creation/</guid>
-      <description> Yet More REST API Creation Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/</guid>
+      <description> Yet More REST API Creation Introduction Key Questions Assignment Overview Explore the Topics RESTful RelationshipsREST Case Study OneREST Case Study TwoAdditional Resources Review </description>
     </item>
     
   </channel>
