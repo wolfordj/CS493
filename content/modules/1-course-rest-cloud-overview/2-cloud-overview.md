@@ -47,8 +47,8 @@ This means you can pick exactly what OS you want to run, you can generally have 
 
 This also means you have to pick exactly what OS you want to run, you have to deal with low level hardware issues and are responsible for any problems that arise with the software you have installed.
 
-## Activity
-<!--- Where possible include one or more activities for students to do to further cement their understanding of the topic. They will learn more from doing than reading -->
 
 ## Review
-<!--- Encourage students to reflect on what they should have learned from this exploration. -->
+This should give you an idea of the major classifications of cloud offerings out there. You probably have used quite a few SaaS offerings, maybe have used a PaaS or two, maybe not, and the same with IaaS. The difference between IaaS and PaaS being the extent to which you want to get involved with the OS and the hardware.
+
+Going forward in this class, try to keep in mind how much is or isn't being done for you by the cloud provider when it comes to things like configuration or networking and think about what the advantages and drawbacks to that are.
