@@ -1,6 +1,6 @@
 ---
 title: "Cloud Computing Overview"
-description: ""
+description: "This will give you an overview of what we mean when we talk about cloud computing in this course. It is a bit of a fuzzy definition, but we will do our best and then look at some more specific terms."
 categories: ["Exploration"]
 weight: 5
 ---

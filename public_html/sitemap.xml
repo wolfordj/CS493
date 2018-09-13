@@ -35,6 +35,10 @@
   </url>
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/2-oo-practices/</loc>
   </url>
   
@@ -47,7 +51,7 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</loc>
   </url>
   
   <url>
@@ -63,10 +67,6 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-tools-setup/</loc>
-  </url>
-  
-  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-collections/</loc>
   </url>
   
@@ -76,6 +76,10 @@
   
   <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/4-tools-setup/</loc>
   </url>
   
   <url>

@@ -25,7 +25,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/</guid>
-      <description> Course introduction, cloud introduction and REST introduction Introduction Key Questions Assignment Overview Explore the Topics Course OverviewCloud Computing OverviewTools and Software SetupAdditional Resources Review </description>
+      <description>Course introduction, cloud introduction and REST introduction Introduction Welcome to Cloud application development. This module will give you a basic overview of the class, go over some basic cloud topics and give you some time to focus on making sure you can get the required tools set up and working before there is any serious homework to be done.
+Key Questions  What is cloud computing? What are the recommending tools and software to be used in this class?</description>
     </item>
     
     <item>
@@ -70,7 +71,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/</guid>
-      <description> REST API Usage Introduction Key Questions Assignment Overview Explore the Topics Introduction to RESTReview of HTTP VerbsCommon Data FormatsDemo of REST API UseAdditional Resources Review </description>
+      <description>REST API Usage Introduction This module is going to discuss the concept of APIs and more specifically, RESTful APIs. An API is an Application Programming Interface. No one calls them that. If you do you will sound silly. It is basically the way for a programmer to access the functionality of a piece of software, library or hardware. REST is a particular style of making an API to make things a bit more standard on the web.</description>
     </item>
     
     <item>

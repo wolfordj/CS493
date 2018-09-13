@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/1-course-overview/</guid>
-      <description> Course Overview Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <description>Course Overview Introduction This course focuses on cloud API development. Those represent the two major components of the class: cloud based computing and API development. Cloud computing is basically computing that is done on distributed computers all over the world. Web API development involved creating applications that internet connected devices can interact with to accomplish certain tasks. The combination will mean that we are creating applications on cloud based computers which we can interact with over the internet.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</guid>
-      <description> Introduction to REST Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <description>Introduction to REST Introduction Representational State Transfer, much more commonly called REST is a very specific way of designing an API. The core concept of a REST Web API is that all the URLs identify resources, we will talk about this in some depth. Another important aspect of REST Web APIs is that they are stateless. The server does not store any information about the current state of a client.</description>
     </item>
     
     <item>
@@ -61,7 +61,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/2-cloud-overview/</guid>
-      <description> Cloud Computing Overview Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <description>Cloud Computing Overview Introduction In my personal experience there are not a whole lot of people who like the term &amp;ldquo;The Cloud&amp;rdquo; in the programming world. It is a great marketing tool, but it is often found in sentences which are also home to &amp;ldquo;incubating disruptive synergies&amp;rdquo; or &amp;ldquo;impactful value-added transformational e-future proofing&amp;rdquo;. It is fairly inspecific corporate jargon at this point. So lets clarify what thing(s) we might actually be talking about when we use the term &amp;ldquo;the cloud&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>HTTP Verbs</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</guid>
+      <description>HTTP Verbs Introduction Verbs are the key to letting us interact with REST APIs. Before we had mentioned that https://example.com/class/1/student/5 might refer to a student with an ID of 5 enrolled in a class with an id of 1. Broadly speaking there are 4 major things we could do at this point. We could create a new thing and add it to the student, maybe an assignment for example. We could read the data about the student or the class in the database.</description>
     </item>
     
     <item>
@@ -92,12 +101,12 @@
     </item>
     
     <item>
-      <title>Review of HTTP Verbs</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</link>
+      <title>API Introduction</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/2-http-verbs/</guid>
-      <description> Review of HTTP Verbs Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</guid>
+      <description>API Introduction Introduction An Application Programming Interface or API is the mechanism by which a programmer might interface with an application. APIs exists at almost all levels of the software stack. Operating systems expose systems calls as an API that allows access to the lower levels of the operating system. C++ libraries expose APIs that allow you to access various data structures or features in the language. The standard template library is a good example of this.</description>
     </item>
     
     <item>
@@ -106,7 +115,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/3-data-formats/</guid>
-      <description> Common Data Formats Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <description>Common Data Formats Introduction When working with APIs you might encounter several formats of data. Most commonly you will see JSON, XML and potentially some sort of format made for humans, like HTML or plain text. In this class the only data format you will need to work with is JSON so this will primarily serve as a quick refresher on JSON format. may
+JavaScript Object Notation This notation is more or less the same notation used to describe JavaScript Objects but it somewhat more strict.</description>
     </item>
     
     <item>
@@ -116,15 +126,6 @@
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</guid>
       <description> REST Case Study Two Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
-    </item>
-    
-    <item>
-      <title>Tools and Software Setup</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-tools-setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-tools-setup/</guid>
-      <description> Tools and Software Setup Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
     </item>
     
     <item>
@@ -143,6 +144,16 @@
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</guid>
       <description> Demo of REST API Use Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+    </item>
+    
+    <item>
+      <title>Tools and Software Setup</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/4-tools-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/4-tools-setup/</guid>
+      <description>Tools and Software Setup Introduction There are a few tools and providers we will need to work with throughout this class. In this section we are going to get them set up and working so we know, down the road, that we don&amp;rsquo;t need to worry about getting any of this configured and we can focus on the topics at hand.
+Postman Setting this one up is pretty straight forward.</description>
     </item>
     
   </channel>
