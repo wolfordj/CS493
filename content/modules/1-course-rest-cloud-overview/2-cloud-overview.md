@@ -19,25 +19,19 @@ In general this is a rather good thing. If I keep all my businesses files on a c
 
 ## Types of Cloud Offerings (?aaS)
 
+### Software as a Service (SaaS)
+
 This type of cloud offering is what you might buy as a company that does not specialize in software development or if you need a piece of software that is well outside your area of expertise. The idea is that you buy access to a software application that is run on a 3rd party companies servers and is maintained by that company. For example, OSU uses a number of Google SaaS products like Gmail. The email services are all handled by Google, the data is stored on Google's servers. But there are a bunch of contracts that specify what sort of uptime they guarantee, how they will maintain the data etc.
 
 In general the client of a SaaS product does not have to do any software maintenance or upkeep, but the SaaS is usually relatively expensive and the client gets very little direct control over features.
 
-### Software as a Service (SaaS)
+### Platform as a Service (PaaS)
 
-This is main what we will be using in this course. A cloud PaaS offering provides a suite of development tools and environments that allow programmers to write programs so long as they fall within certain constraints.
+This is mainly what we will be using in this course. A cloud PaaS offering provides a suite of development tools and environments that allow programmers to write programs so long as they fall within certain constraints.
 
 In our case we will use Google App Engine. This means there are a set of languages we are constrained to if we want to use the standard environment. There are a specific set of libraries that are included and supported. In general you are not going to get access to low level programming interfaces. So calls to the OS are going to be limited. You may not get access to the much of the hard drive that is hosting the machine. So there are a number of limitations, but there are a number of positives.
 
 This is nice because you don't need to worry so much about things like keeping your hardware and operating system up to date in terms of things like security updates. The PaaS provider should handle things like this. Likewise they should handle a lot of the nitty gritty details of actually maintaining correctly configured server settings.
-
-### Platform as a Service (PaaS)
-
-PaaS makes a bit more sense when discussed with the context of IaaS as well. In an IaaS environment you get a hard drive, some sort of network card and a CPU. The rest is up to you. Essentially you are renting hardware at the providers location and that is all they really guarantee. You will get that CPU, network connection and storage, if you muck it up from there that is your fault.
-
-This means you can pick exactly what OS you want to run, you can generally have access to low level hardware, you can pick exactly what software packages are installed and how they are configured.
-
-This also means you have to pick exactly what OS you want to run, you have to deal with low level hardware issues and are responsible for any problems that arise with the software you have installed.
 
 ### Infrastructure as a Service (IaaS)
 
@@ -45,8 +39,9 @@ PaaS makes a bit more sense when discussed with the context of IaaS as well. In 
 
 This means you can pick exactly what OS you want to run, you can generally have access to low level hardware, you can pick exactly what software packages are installed and how they are configured.
 
-This also means you have to pick exactly what OS you want to run, you have to deal with low level hardware issues and are responsible for any problems that arise with the software you have installed.
+This also means you **have** to pick exactly what OS you want to run, you have to deal with low level hardware issues and are responsible for any problems that arise with the software you have installed.
 
+{{< kaltura 0_b012ldgq >}}
 
 ## Review
 This should give you an idea of the major classifications of cloud offerings out there. You probably have used quite a few SaaS offerings, maybe have used a PaaS or two, maybe not, and the same with IaaS. The difference between IaaS and PaaS being the extent to which you want to get involved with the OS and the hardware.
