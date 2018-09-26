@@ -36,6 +36,8 @@ This might return a response like:
 
 Accessing this URL with a `GET` request gets the information for us. You should have done this with quite a bit of frequency in your web development class as it is a really common way to get data with AJAX calls generally, even when not working with REST APIs.
 
+{{< kaltura 0_sntcw94q >}}
+
 ## POST
 You should have already used `POST` from prior web development classes. However you may have not been using it as the REST requirements specify. `POST` should only be used for the creation of new resources. We will later clarify the different between `POST` and `PUT`, both of which can be used for the creation of resources. But `POST` should be used when the location of the resource to be created is not known. For example, if you wanted to add a new lodging to the database you would `POST` to `/lodgings` with the specifications of a new lodging. The server will then create a new lodging and generally will respond by providing the id or a link to the newly created resource.
 
@@ -73,7 +75,7 @@ If we had the following state in our server:
 and we made the following POST request:
 
 ```http
-POST /aquariums HTTP/1.1
+POST /lodgings HTTP/1.1
 Host: exmaple-lodging-service.com
 Accept: application/json
 Content-Type: application/json
@@ -128,6 +130,8 @@ we would potentially end up with a new sever state that looked like:
 
 The server got our request to make a new lodging entry. We specified the what we wanted the details of the lodging to be, then the server generated a representation of it and assigned it an ID and a URL. In this case the URL and ID were sequential, but it does not need to be. It could be created by some sort of hash function that generated a very long string identifier, for example. The important bit to note is that we didn't specify the location first.
 
+{{< kaltura 0_k172f4t6 >}}
+
 ## PUT
 `PUT` is an idempotent method to crate or replace data. You must know the resource location where you are wanting to put the resource you are sending.
 
@@ -152,6 +156,8 @@ With a body like:
 
 This would replace the entire contents of the lodging found at `/lodgings/4`. This is important to note. If you, for example, left out an optional property that previously existed, it would be removed with the operation. It could be thought of as deleting what was there then creating a new item in its place.
 
+{{< kaltura 0_vourefor >}}
+
 ## PATCH
 `PATCH` is used for partial updates. It should contain a set of instructions to update the resource being patched. This can get quite complex. For this class we are simply going to use it to do partial updates or simple additions or removals. If you send a request like:
 
@@ -169,8 +175,12 @@ With a body like:
 
 It would replace the contents of the description with "It is so cozy" but change nothing else. This is in contrast to a `PUT` which *would* delete everything else. If you wanted to delete an attribute with a `PATCH` you would need to explicitly set it to an empty string or `null` value in the body.
 
+{{< kaltura 0_uwbroujv >}}
+
 ## DELETE
 `DELETE` is fairly self explanatory. It is an idempotent method that deletes whatever id is specified in the request. So sending a `DELETE` request to `/lodgings/4` would simply remove the entry for lodging 4. If you had a more complex API that had references between things like lodgings and guests, you would need to make sure to properly handle the situation where a guest potentially had a reservation for that now deleted lodging. That might mean deleting the reservation or potentially rejecting the delete due to it being reserved by a guest.
+
+{{< kaltura 0_qyc1xwhy >}}
 
 ## Activity
 Head over to the GitHub [REST API](https://developer.github.com/v3/) and look through their documentation in a little more detail. Try to get a sense of how various operations work in their API which is a good model to follow.

@@ -7,27 +7,37 @@ weight: 10
 
 {{< title >}}
 ## Introduction
+<!--- Introduce the topic in this section -->
 This module is going to discuss the concept of APIs and more specifically, RESTful APIs. An API is an Application Programming Interface. No one calls them that. If you do you will sound silly. It is basically the way for a programmer to access the functionality of a piece of software, library or hardware. REST is a particular style of making an API to make things a bit more standard on the web.
 
 ## Key Questions
-- What is an API and what is it used for?
-- What are the requirements for an API to be RESTful?
-- How does one map a data model to a RESTful API?
-- What is the relationship between REST APIs and the HTTP verbs?
+<!--- List  key questions
+- Key question 1
+- Key question 2
+    - Key question 2a
+    - Key question 2b
+ -->
+ - What is an API and what is it used for?
+ - What are the requirements for an API to be RESTful?
+ - What is the relationship between REST APIs and the HTTP verbs?
+ - How does one interact with an existing REST API?
+
+
 
 ## Assignment Overview
-This week you will practice using an existing REST API by writing a series of tests to prove that it works. This should give you some insight into how APIs work before you jump into building one yourself.
+<!--- Give a general overview of the sort of assignment(s) students will do during the week -->
+This week you will work with an existing REST API. This will help you get familiar with what a well implemented API looks like and what sort of interactions you can expect from the API.
 
 ## Explore the Topics
 <!--- An automatically generated list of explore topics from the same directory as this overview. Generated from the frontmatter, make sure to fill in the title, description and include "Exploration" in the categories! -->
 {{< explorelist >}}
 
 ## Additional Resources
-[Web API Design](http://classes.engr.oregonstate.edu/eecs/winter2017/cs496/resources/Web-design-the-missing-link-ebook-2016-11.pdf)
-: this is an eBook that goes into detail on REST at what I believe is an appropriate level of detail for this class and for the extent that many people will interact with REST APIs. It focuses much more on the URL structure and not so much on the use of verbs, but is nonetheless a good resource.
+[Postman Documentation](https://www.getpostman.com/docs/v6/)
+: This is a link to the Postman documentation. You should be able to get a good sense of how it works in the API demo, but if you want to get a more detailed explanation of tests and scripting options this is a great reference to use.
 
-[Dan Fielding's Rest Dissertation](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
-: the original, official, it all started here, dissertation by Dan Fielding. Chapters 5 and 6 are where the real meat of the content is. Consider the reading optional, but if you ever need to win an argument about REST, this is the document you should use to do so.
+[Box API](https://developer.box.com/)
+: This is the developer page for the Box API which is used in this weeks demo. If you want to use it you will need to sign up for a personal account as there is automatically one generated that is tied to your OSU email and it will not allow API access. Pay particular attention to the API reference which does a good job providing example API calls along with giving a good description of the routes available in the API.
 
 ## Review
-There is yet more to come on REST. But this is a good overview of the practical parts of REST that we will care about in this class. There are additional components to REST that we will not implement and there is quite a bit to be done in the area of proper HTTP status code usage which is also beyond the scope of this class. But for now, this should give you everything you need to design in the abstract, a REST API along with defining how one would interact with that API.
+This week should give you a pretty good overview of what REST is all about. You  may not yet be ready to make your own API, but hopefully you can start interacting with existing APIs like Box or GitHub, both of which are pretty well designed REST implementations. After you have spent some time interacting with them you should better understand *why* we set things up this way which should prepare you to make your own decisions when creating an API yourself.
