@@ -10,10 +10,10 @@ weight: 10
 {{< title >}}
 ## Introduction
 <!--- Introduce the content of this exploration -->
-When working with APIs you might encounter several formats of data. Most commonly you will see JSON, XML and potentially some sort of format made for humans, like HTML or plain text. In this class the only data format you will need to work with is JSON so this will primarily serve as a quick refresher on JSON format. may
+When working with APIs you might encounter several formats of data. Most commonly you will see JSON, XML and potentially some sort of format made for humans, like HTML or plain text. In this class the only data format you will need to work with is JSON so this will primarily serve as a quick refresher on JSON format.
 
 ## JavaScript Object Notation
-This notation is more or less the same notation used to describe JavaScript Objects but it somewhat more strict. At the highest level there are two sorts of things that can be the root of a piece of JSON data. It can be an `object` or an `array`.
+This notation is more or less the same notation used to describe JavaScript Objects but it is somewhat more strict. At the highest level there are two sorts of things that can be the root of a piece of JSON data. It can be an `object` or an `array`.
 
 ### JSON Objects
 JSON objects are the most common format you will see when it comes to the data returned from an API (though you will see lots of arrays within these objects). Objects are of the format:

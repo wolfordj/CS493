@@ -12,6 +12,8 @@ weight: 1
 <!--- Introduce the content of this exploration -->
 This course focuses on cloud API development. Those represent the two major components of the class: cloud based computing and API development. Cloud computing is basically computing that is done on distributed computers all over the world. Web API development involved creating applications that internet connected devices can interact with to accomplish certain tasks. The combination will mean that we are creating applications on cloud based computers which we can interact with over the internet.
 
+{{< kaltura 0_q87o1eko >}}
+
 ## Major Class Components
 The early portion of the class will primarily focus on individual assignments which take one or two weeks. The emphasis will be on using the tools, technologies and standards to interact with and make cloud hosted web APIs.
 

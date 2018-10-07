@@ -73,7 +73,7 @@ If we had the following state in our server:
 and we made the following POST request:
 
 ```http
-POST /aquariums HTTP/1.1
+POST /lodgings HTTP/1.1
 Host: exmaple-lodging-service.com
 Accept: application/json
 Content-Type: application/json
