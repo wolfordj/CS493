@@ -46,7 +46,10 @@ As we look at URLs there is a fairly common pattern that often emerges. You will
 
 This makes sense, a collection typically has nothing associated with it other than perhaps some properties like the length or type of item in the collection. So the URL `/classes/students` would not have any reasonable meaning. We don't know which students we would be looking at. But `/classes/CS493/students` makes it clear we are looking at the students in CS493.
 
-Likewise when we are looking at individual items if something is a property we can just pull it directly from the item `/students/Peter-Ian-Staker` might contain the GPA for that student along with other properties like year enrolled, library balance etc. There would be no need to access `/students/Peter-Ian-Staker/GPA` because that is simply a numeric property. But we *might* want to access a collection, like grades for all classes. In that case `/students/Peter-Ian-Staker/grades` might return a collection of classes and associated grades for Mr. Staker.
+Likewise when we are looking at individual items if something is a property we can just pull it directly from the item `/students/Peter-Ian-Staker` might contain the GPA for that student along with other properties like year enrolled, library balance etc. There would be no need to access `/students/Peter-Ian-Staker/GPA` because that is simply a numeric property. But we *might* want to access a collection, like grades for all classes. In that case `/students/Peter-Ian-Staker/grades` might return a collection of classes and associated grades for Mr. Staker. 
+
+### Exceptions
+I am not sure I have ever seen `/collection/collection`, that would be difficult to parse the meaning of. However you do occasionally see `/id_1/id_2` where the 2nd `id` is a specific, complex property of the resource associated to `id_1`. You would see this if the content of `id_2` is something like a binary file.
 
 ## Final URL Thoughts
 
@@ -57,6 +60,8 @@ For example, in our lodging system we definitely want a collection of lodgings `
 But suppose we had a list of credit cards on file for each guest `/guest/:id/credit-cards`. We might not have any need for a master list of all credit cards on file. Instead it might be fine to only be able to access the cards on file for a guest via the guest's URL.
 
 There are not any really clear rules for these sorts of decisions and it depends largely on use case.
+
+{{< kaltura 1_18cs597f >}}
 
 ## Review
 

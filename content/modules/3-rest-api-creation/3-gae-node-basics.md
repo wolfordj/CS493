@@ -13,6 +13,10 @@ It can be difficult getting a new tool or library up or running. I would encoura
 
 So see if you can get through it using only 1st party Google documentation and 3rd party guides that are not this one. If, after some time you feel like you are unable to make progress, then head back here and it should get you set on the right track.
 
+As a starter you might want to look at the basic datastore tutorial to make sure everything is configured. Here is a demo of me walking through it
+
+{{< kaltura 1_adi9dnil >}}
+
 ## Lodging App
 This demo app is meant to be the *start* to the lodging/guest app. It will show you how to set up the routes for lodgings, but isn't going to show how to implement guests or how to implement adding guests to rooms.
 
@@ -24,6 +28,8 @@ While not entirely trivial to add those features, they are somewhat intuitive an
 
 ### Video Walkthrough
 Most of the information is best expressed in a video walk through of this code seen here.
+
+{{< kaltura 1_04nmatev >}}
 
 ### Highlights
 

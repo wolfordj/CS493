@@ -36,5 +36,7 @@ Another piece of the architecture you will want to implement are controllers. Th
 
 [This implementation](https://github.com/GoogleCloudPlatform/nodejs-getting-started/tree/8bb3d70596cb0c1851cd587d393faa76bfad8f80/2-structured-data/books) of a Book tracking system implemented by Google to demonstrate storing structured data is a fairly good example. Note that there are two models, one based in the Datastore and on based on SQL that can easily be swapped out. In addition note that there are two controllers, one based on web browser interaction and one based on REST interaction. This level of abstraction makes it easy to make changes to you system because functionality is well encapsulated.
 
+{{< kaltura 1_6e1fe63s >}}
+
 ## Review
 As you work on the assignments and particularly later in the class when you are working on the final project you may find that there are times you are reusing a lot of code or finding that changing one file makes big impacts to many other files. That is a good indication that you code is not well encapsulated. If that ends up happening come back and review this section and the sample code. You might find some good ways of handling things that will work out better for you.
