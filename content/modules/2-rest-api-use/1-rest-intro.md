@@ -20,6 +20,8 @@ There are some things that are very tempting to do with a web API and they are n
 
 `https://example.com/addStudent` or `http://example.com/addStudent.html` or any variation of a URL that has the letters addStudent in it. As mentioned before a URL must point to a representation of a resource. addStudent is not a resource, it is not a thing, it isn’t just a noun, it has a verb in it. And verbs within a URL is what REST seeks to banish from this world and the next. If you make a URL, and it has a verb in it is very likely that what you are doing is not RESTful. Again, in some contexts this is OK, but not in this class. We will cover resources in yet more detail in another section.
 
+{{< kaltura 0_tgv6y7b9 >}}
+
 ## Stateless
 A stateless API in a REST architecture must store no data about the current state of a client. The client must send all the information needed to process that client’s request within the request itself. The server cannot rely on any data previously sent by the client.
 
@@ -33,6 +35,8 @@ But have caution, it is easy to over generalize here. Cookies are almost always 
 Well, let me tell you! Because state is incredibly messy and needs to be meticulously tracked. When one is working on a single server with a small number of clients tracking state can make things simple and easy. But consider a provider like Google. They literally have thousands upon thousands of servers across the world.
 
 One great feature of distributed computing is the ability to balance load across numerous servers. If the west coast is getting a lot of traffic but people are asleep on the east coast, it might make a lot of sense to route requests to the east coast to lighten the load on west coast servers. But this becomes problematic if state is kept on servers. Now, instead of just having to read from a single server, every time the client’s state changes it needs to be sent to every single server that they could possibly use next. Alternatively they may be locked into accessing only a single sever for the duration of the session which could become problematic if it becomes congested or goes down. The better, more scalable solution is to not maintain state.
+
+{{< kaltura 0_3erir6zt >}}
 
 ## Review
 These are the big two. We are not really going to talk about statelessness any more. This concept is important, but also fairly straight forward. You may need to think a bit about how to handle situations where you used to use server side sessions to handle things, but overall it should make some sense and be somewhat intuitive when you are or are not storing client specific state on the server. URLs representing resources are so important and such a critical part of REST that we will have another entire section talking about them. In addition to these two parts of rest there are a few more constraints that we will also talk about in a different section. But when the topic of REST comes up, these are the major two issues that are almost always at the heart of it.

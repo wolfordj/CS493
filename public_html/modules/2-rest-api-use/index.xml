@@ -44,7 +44,7 @@ JavaScript Object Notation This notation is more or less the same notation used 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</guid>
-      <description> Demo of REST API Use Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <description>Demo of REST API Use Introduction We are going to walk through using a real live API to see what it practically looks like to do these sorts of tasks. This video uses the Box API reference as a guide when it comes to setting up the calls. This API is well documented and shows examples for every call. The Postman API tool is used to interact with the API via a somewhat graphical interface.</description>
     </item>
     
   </channel>
