@@ -38,7 +38,7 @@
               
               <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/2-oo-practices/">Objects in Good API Design</a>
               
-              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-collections/">Collections of Resources</a>
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-gae-node-basics/">Google App Engine and Node.js</a>
               
               
 
@@ -64,18 +64,19 @@
 
 <!--- Introduce the topic in this section -->
 
+<p>This module is designed to walk you through making a basic rest API. It will show you how to specifically use Node.js and Google App Engine with the Cloud Datastore to make a REST API running on the cloud.</p>
+
 <h2 id="key-questions">Key Questions</h2>
 
-<!--- List  key questions
-- Key question 1
-- Key question 2
-    - Key question 2a
-    - Key question 2b
- -->
+<ul>
+<li>What are good URLs to use in a REST API?</li>
+<li>How are routes set up in Google App Engine?</li>
+<li>What are some key differences between accessing items in the Datastore and SQL?</li>
+</ul>
 
 <h2 id="assignment-overview">Assignment Overview</h2>
 
-<!--- Give a general overview of the sort of assignment(s) students will do during the week -->
+<p>This week you will lay the framework for a basic REST API. You will need to implement a basic two entity API where the two items can be related. Future assignments will build off of this one.</p>
 
 <h2 id="explore-the-topics">Explore the Topics</h2>
 
@@ -85,17 +86,17 @@
     
     <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/1-url-selection/">Deciding on URLs</a></dt>
     <dd>
-       
+       This exploration will look at URLs in REST APIs.
     </dd>
     
     <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/2-oo-practices/">Objects in Good API Design</a></dt>
     <dd>
-       
+       This will look at implementing a REST API at a fairly high level. This is a good time to review some object oriented programming practices and see how we can apply them.
     </dd>
     
-    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-collections/">Collections of Resources</a></dt>
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/3-gae-node-basics/">Google App Engine and Node.js</a></dt>
     <dd>
-       
+       This will walk through the basics of setting up the framework for a Node.js application on Google&#39;s App Engine framework in Node.js.
     </dd>
     
   </dl>
@@ -103,17 +104,18 @@
 
 <h2 id="additional-resources">Additional Resources</h2>
 
-<!--- Links to 3rd party resources. Things like other YouTube videos or articles
-[Item](URL to item)
-: Description of item
-
-[Item 2](URL to item 2)
-: Description of item 2
--->
+<dl>
+<dt><a href="https://cloud.google.com/appengine/docs/standard/nodejs/">Node.js Google App Engine Documentation</a></dt>
+<dd>The main documentation for Google App Engine with Node.js.</dd>
+<dt><a href="https://cloud.google.com/datastore/docs/concepts/entities">Google Cloud Datastore Documentation</a></dt>
+<dd>The main documentation for the Google Cloud Datastore. Pay attention to the how-to guides. They contain a lot of helpful info.</dd>
+<dt><a href="https://cloud.google.com/nodejs/docs/reference/datastore/1.4.x/">Google Cloud Datastore Node.js Reference</a></dt>
+<dd>This specifically looks at the Node.js client library for the Google Cloud Datastore.</dd>
+</dl>
 
 <h2 id="review">Review</h2>
 
-<!--- This is where you should encourage students to reflect on what they have learned and make connections to previous material. -->
+<p>The key for this module is to get a good understanding of the fundamentals of a REST API. You should understand how to do the CRUD operations on a single entity and should have spend some time considering and implementing possible solutions to related entities. In later modules we will talk about some more best practices and advanced functionality. But for now you should have a pretty good understanding of the basic operations.</p>
 
   </div>
 </div>

@@ -31,6 +31,8 @@ Most of the information is best expressed in a video walk through of this code s
 
 {{< kaltura 1_04nmatev >}}
 
+{{< kaltura 1_oq71f0rt >}}
+
 ### Highlights
 
 #### Keys
@@ -47,9 +49,5 @@ If you were to add guests to this, the main challenge will be to figure out how 
 
 A decision you need to make is if you want to store those keys as key objects and convert them to strings when a client requests them or if you want to store them as strings and convert them to keys when you need to use them with the Datastore.
 
-
-## Activity
-<!--- Where possible include one or more activities for students to do to further cement their understanding of the topic. They will learn more from doing than reading -->
-
 ## Review
-<!--- Encourage students to reflect on what they should have learned from this exploration. -->
+This should give you a pretty solid platform with which to work. From here you can change the names or properties of entities. You could work on further abstraction or you could just use this as a basic idea and make your own implementation just borrowing some ideas from this one.

@@ -34,8 +34,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/3-data-formats/</guid>
-      <description>Common Data Formats Introduction When working with APIs you might encounter several formats of data. Most commonly you will see JSON, XML and potentially some sort of format made for humans, like HTML or plain text. In this class the only data format you will need to work with is JSON so this will primarily serve as a quick refresher on JSON format. may
-JavaScript Object Notation This notation is more or less the same notation used to describe JavaScript Objects but it somewhat more strict.</description>
+      <description>Common Data Formats Introduction When working with APIs you might encounter several formats of data. Most commonly you will see JSON, XML and potentially some sort of format made for humans, like HTML or plain text. In this class the only data format you will need to work with is JSON so this will primarily serve as a quick refresher on JSON format.
+JavaScript Object Notation This notation is more or less the same notation used to describe JavaScript Objects but it is somewhat more strict.</description>
     </item>
     
     <item>

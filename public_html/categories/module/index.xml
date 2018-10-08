@@ -62,7 +62,8 @@ Key Questions  What is cloud computing? What are the recommending tools and soft
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/</guid>
-      <description> REST API Creation Introduction Key Questions Assignment Overview Explore the Topics Deciding on URLsObjects in Good API DesignCollections of ResourcesAdditional Resources Review </description>
+      <description>REST API Creation Introduction This module is designed to walk you through making a basic rest API. It will show you how to specifically use Node.js and Google App Engine with the Cloud Datastore to make a REST API running on the cloud.
+Key Questions  What are good URLs to use in a REST API? How are routes set up in Google App Engine? What are some key differences between accessing items in the Datastore and SQL?</description>
     </item>
     
     <item>
