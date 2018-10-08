@@ -10,7 +10,7 @@ weight: 1
 {{< title >}}
 ## Introduction
 <!--- Introduce the content of this exploration -->
-In this section we return to the concept of resources representing URLs. We are going to talk in some more detail about what this means and how it is applied to a web application. Everything in this section will assume the data is stored as a simple JSON representation. For our example we are going to to use a lodging provider that has provides lodgings to guests. These will be the two kinds of entities that we will keep track of in our application. We will look at what a REST URL structure for this might look like.
+In this section we return to the concept of resources representing URLs. We are going to talk in some more detail about what this means and how it is applied to a web application. Everything in this section will assume the data is stored as a simple JSON representation. For our example we are going to  use a lodging provider that has provides lodgings to guests. These will be the two kinds of entities that we will keep track of in our application. We will look at what a REST URL structure for this might look like.
 
 ## URLs Identifying Resources
 <!--- Main topic headings are at ## -->
