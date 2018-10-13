@@ -45,7 +45,7 @@ This is not idempotent. Multiple requests to the same URL that include the same 
 
 If we had the following state in our server:
 
-```js
+```json
 {
 "kind": "collection",
 "self": "/lodgings",
@@ -83,7 +83,7 @@ Content-Type: application/json
 
 With the following body:
 
-```js
+```json
 {
 	"kind": "lodging",
 	"name":"The Shack Out Back",
@@ -94,7 +94,7 @@ With the following body:
 
 we would potentially end up with a new sever state that looked like:
 
-```js
+```json
 {
 "kind": "collection",
 "self": "/lodgings",
@@ -145,7 +145,7 @@ Content-Type: application/json
 ```
 
 With a body like:
-```js
+```json
 {
     "kind": "lodging",
     "name":"The Nice Cottage Out Back",
@@ -169,7 +169,7 @@ Content-Type: application/json
 ```
 
 With a body like:
-```js
+```json
 {"description": "It is so cozy"}
 ```
 

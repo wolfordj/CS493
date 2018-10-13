@@ -33,5 +33,8 @@ This week you will lay the framework for a basic REST API. You will need to impl
 [Google Cloud Datastore Node.js Reference](https://cloud.google.com/nodejs/docs/reference/datastore/1.4.x/)
 : This specifically looks at the Node.js client library for the Google Cloud Datastore.
 
+[Apigee Web API Design Book](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
+: This books approaches REST API design at a pretty reasonable level and does a good job conveying the overall concepts.
+
 ## Review
 The key for this module is to get a good understanding of the fundamentals of a REST API. You should understand how to do the CRUD operations on a single entity and should have spend some time considering and implementing possible solutions to related entities. In later modules we will talk about some more best practices and advanced functionality. But for now you should have a pretty good understanding of the basic operations.

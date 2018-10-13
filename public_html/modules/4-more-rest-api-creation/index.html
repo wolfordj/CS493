@@ -34,11 +34,11 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               
               
-              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/">RESTful Relationships</a>
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/">RESTful Links</a>
               
-              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/">REST Case Study One</a>
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-pagination/">Pagination in REST</a>
               
-              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/">REST Case Study Two</a>
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-relationships/">RESTful Relationships</a>
               
               
 
@@ -62,20 +62,20 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<!--- Introduce the topic in this section -->
+<p>This week moves on from the basics to cover some topics that will make your REST API actually usable by clients. We will look at making it easier to navigate a REST API, dealing with large sets of results and setting up relationships between different entities in the API.</p>
 
 <h2 id="key-questions">Key Questions</h2>
 
-<!--- List  key questions
-- Key question 1
-- Key question 2
-    - Key question 2a
-    - Key question 2b
- -->
+<ul>
+<li>Why might we want to set up links as parts of objects?</li>
+<li>How can we deal with large sets of results?</li>
+<li>What are some of the pitfalls we can encounter when working with large result sets?</li>
+<li>What are some special considerations when working with relationships in REST APIs?</li>
+</ul>
 
 <h2 id="assignment-overview">Assignment Overview</h2>
 
-<!--- Give a general overview of the sort of assignment(s) students will do during the week -->
+<p>This weeks assignment will be similar to last weeks in that you will implement an API according to a specification we provide. The changes being that internal links will be required, we will want to paginate result sets and there will be some additional emphasis placed on relationships between entities.</p>
 
 <h2 id="explore-the-topics">Explore the Topics</h2>
 
@@ -83,19 +83,19 @@
 
 <dl>
     
-    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/">RESTful Relationships</a></dt>
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/">RESTful Links</a></dt>
     <dd>
-       
+       This exploration will look at how we navigate RESTful APIs.
     </dd>
     
-    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/">REST Case Study One</a></dt>
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-pagination/">Pagination in REST</a></dt>
     <dd>
-       
+       Sometimes our servers store lots of things. Sometimes clients can&#39;t handle that many things. Pagination solve all our problems. Almost.
     </dd>
     
-    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/">REST Case Study Two</a></dt>
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-relationships/">RESTful Relationships</a></dt>
     <dd>
-       
+       Relationships in REST APIs
     </dd>
     
   </dl>
@@ -103,17 +103,16 @@
 
 <h2 id="additional-resources">Additional Resources</h2>
 
-<!--- Links to 3rd party resources. Things like other YouTube videos or articles
-[Item](URL to item)
-: Description of item
-
-[Item 2](URL to item 2)
-: Description of item 2
--->
+<dl>
+<dt><a href="https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf">Web API Design Book</a></dt>
+<dd>This book addresses REST API design at a good level for this class. It talks about many of the topics we will look at in this week. It isn&rsquo;t required, but is good if you are struggling with any of the REST concepts.</dd>
+<dt><a href="https://cloud.google.com/datastore/docs/concepts/queries#cursors_limits_and_offsets">Cloud Datastore Cursors</a></dt>
+<dd>This goes over the use of cursors in the Google Cloud Datastore. Remember that the code sample all have a link at the top to get to a GitHub repository that has full working code samples.</dd>
+</dl>
 
 <h2 id="review">Review</h2>
 
-<!--- This is where you should encourage students to reflect on what they have learned and make connections to previous material. -->
+<p>This is the second of three weeks covering REST API design. We have covered most of the fundamentals of REST at this point. From here we will look at stuff that ends up being a bit more application specific and we can look at some exceptions to the usual rules and practices that will make APIs easier to use.</p>
 
   </div>
 </div>

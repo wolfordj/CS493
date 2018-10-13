@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/</guid>
-      <description> Advanced REST API Concepts Introduction Key Questions Assignment Overview Explore the Topics RESTful LinksPagination in RESTAdditional Resources Review </description>
+      <description> Advanced REST API Concepts Introduction Key Questions Assignment Overview Explore the Topics REST Case Study OneREST Case Study TwoAdditional Resources Review </description>
     </item>
     
     <item>
@@ -99,7 +99,8 @@ Key Questions  What are good URLs to use in a REST API? How are routes set up in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/</guid>
-      <description> Yet More REST API Creation Introduction Key Questions Assignment Overview Explore the Topics RESTful RelationshipsREST Case Study OneREST Case Study TwoAdditional Resources Review </description>
+      <description>Yet More REST API Creation Introduction This week moves on from the basics to cover some topics that will make your REST API actually usable by clients. We will look at making it easier to navigate a REST API, dealing with large sets of results and setting up relationships between different entities in the API.
+Key Questions  Why might we want to set up links as parts of objects?</description>
     </item>
     
   </channel>

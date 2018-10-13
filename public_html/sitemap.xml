@@ -15,11 +15,7 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-internal-links/</loc>
-  </url>
-  
-  <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</loc>
   </url>
   
   <url>
@@ -43,11 +39,11 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-pagination/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-pagination/</loc>
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/</loc>
   </url>
   
   <url>
@@ -63,7 +59,7 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/</loc>
   </url>
   
   <url>
@@ -76,6 +72,10 @@
   
   <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-relationships/</loc>
   </url>
   
   <url>

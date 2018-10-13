@@ -11,30 +11,35 @@
     
     
     <item>
+      <title>RESTful Links</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</guid>
+      <description>RESTful Links Introduction So far we have not thought too hard about all of the theory behind REST, and we don&amp;rsquo;t really need to. But an important piece we have not talked about and have thus far ignored is using hypermedia to help keep track of the application state.
+Hypermedia is basically media which is linked to other media in a network of nodes. When you click on a URL in a webpage you are following a hyperlink.</description>
+    </item>
+    
+    <item>
+      <title>Pagination in REST</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-pagination/</guid>
+      <description>Pagination in REST Introduction There are many databases out there with hundreds of millions of records. It isn&amp;rsquo;t difficult to imagine that sending that many results at once could cause a variety of problems.
+Most clients probably don&amp;rsquo;t want that many results. The may just want the first 100, or first 1,000.
+Even if they did want that many results, they might not be able to process them all at once.</description>
+    </item>
+    
+    <item>
       <title>RESTful Relationships</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-relationships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-relationships/</guid>
-      <description> RESTful Relationships Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
-    </item>
-    
-    <item>
-      <title>REST Case Study One</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/2-case-study-one/</guid>
-      <description> REST Case Study One Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
-    </item>
-    
-    <item>
-      <title>REST Case Study Two</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-case-study-two/</guid>
-      <description> REST Case Study Two Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/3-relationships/</guid>
+      <description>RESTful Relationships Introduction In principle, relationships are not that new or exciting when dealing with a REST API. The same sorts of relationships still exist like they do in a standard relational database. We have one-to-one, one-to-many and many-to-many relationships.
+That said, there are some interesting choices we need to make when returning results.
+Basic Relationships Lets return to our lodging API. /lodgings/:id/guests could very reasonably be expected to return the lists of guests for a particular lodging.</description>
     </item>
     
   </channel>
