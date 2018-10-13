@@ -108,5 +108,7 @@ This URL should be generated using information gathered from the request. For ex
 
 I have seen arguments to leave it at simply the path, but the whole point of this exercise is to make the programming easier for the client. There is no reason to adhere to an overly strict interpretation of the REST rules at the expense of the ease of use for your users.
 
+{{< kaltura 0_fbg48uxg >}}
+
 ## Review
 This section should give you a good idea of why we might want to use URLs in addition to simply kinds and IDs in our API. It can make it much easier for users to navigate your API and avoids the need to build URLs and look up or have hard coded paths.

@@ -119,5 +119,7 @@ Take the photo example, it is unlikely that the tag `cat` is going to change its
 
 On the other hand, information about a room a guest is staying in might update frequently so it would be important to query the database when the guest is loaded to make sure we have the most up to date information about the room the guest is staying in.
 
+{{< kaltura 0_zk3jqkeu >}}
+
 ## Review
 Hopefully this gives you a good idea of what it looks like to deal with relationships in a REST API and has helped you make the transition from MySQL to thinking about some other less normalized options where appropraite.

@@ -51,5 +51,7 @@ An easy way to facilitate this is with links within a result set. We hinted at i
 
 The way to set this up would genenrally be with query parameters named `limit` and `offset`. So `/guests?limit=5&offset=15` might represent the path of the `next` and `/guests?limit=5&offset=5` might represent the path of the `prev` page of results if we are currently on `/guests?limit=5&offset=10`
 
+{{< kaltura 0_6i6a6mrb >}}
+
 ## Review
 This should give you an idea of how pagination is supposed to function within a REST API. It might not always be so obvious how to implement it, but at least the desired client functionality is pretty clear. A lot of the implementation details are going to depend on which database backend you opt to use.
