@@ -2,7 +2,7 @@
 title: "Demo of Intermediate REST API Features"
 description: "This gives an overview of intermediate REST features implemented in Google App Engine using Node.js"
 categories: ["Exploration"]
-weight: 15
+weight: 20
 ---
 <!--- Make sure to fill out the title and description above, they will be used when generating lists of exploration topics -->
 <!--- The weight above determines what order this will be shown among other exploration topics in this same folder, lower numbers are shown first. Start using at least multiples of 5, that way if you need to add a content page between existing ones there are enough open weights to do so. They are integers only -->
@@ -12,7 +12,7 @@ weight: 15
 <!--- Introduce the content of this exploration -->
 This video looks at the lodging application as it is being updated to include more intermediate features. The Gist with the code sample can be found [here](https://gist.github.com/wolfordj/3080eeec83bdc3bcc916c3c8fcd3b383). This isn't a complete and functioning API, it is only built to showcase some important features and show how to do some specific tasks using Node.js and Google App Engine.
 
-## The Box API Demo
+## Lodging v2 Overview
 {{< kaltura 0_lcd8eos6 >}}
 
 

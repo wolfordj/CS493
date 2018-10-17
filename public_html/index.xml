@@ -162,5 +162,15 @@ Basic Relationships Lets return to our lodging API. /lodgings/:id/guests could v
 Postman Setting this one up is pretty straight forward.</description>
     </item>
     
+    <item>
+      <title>Demo of Intermediate REST API Features</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/4-use-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/4-use-demo/</guid>
+      <description>Demo of Intermediate REST API Features Introduction This video looks at the lodging application as it is being updated to include more intermediate features. The Gist with the code sample can be found here. This isn&amp;rsquo;t a complete and functioning API, it is only built to showcase some important features and show how to do some specific tasks using Node.js and Google App Engine.
+Lodging v2 Overview  Review Between the complete examples in the Google App Engine documentation and this walkthrough that addresses some of the points that are not really hit on in the Google documentation you should be in a position where you can set up simple relationships, implement one-way paging using a cursor and implement links within an API.</description>
+    </item>
+    
   </channel>
 </rss>
