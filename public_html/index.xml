@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Authorization</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/1-authorization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/1-authorization/</guid>
+      <description>Authorization Introduction Authorization, simply put, is the process of determining if the requester of a resource is allowed to access that resource. It is very important to not expand this definition any further than this. Doing so tends to open up a lot of security holes because people believe an authenticated request conveys more meaning or is somehow more complex than this. We will go into some detail on that shortly.</description>
+    </item>
+    
+    <item>
       <title>Course Overview</title>
       <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/1-course-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,6 +47,27 @@
     </item>
     
     <item>
+      <title>OAuth 2.0</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/2-oauth-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/2-oauth-2/</guid>
+      <description>OAuth 2.0 Introduction OAuth 2.0 is an authorization protocol that is widely adapted among web services. If you want to access a users resources on differently platforms it is very, very likely that OAuth 2.0 will be the authentication protocol that is used to do so.
+OAuth 2.0 This answer on StackOverflow is my favorite high-level description of OAuth 2.0.
+ Flow Types Definitions  End-User This is typically the actual human involved in using an application.</description>
+    </item>
+    
+    <item>
+      <title>OAuth 2.0 Flow Example</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/3-oauth-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/3-oauth-example/</guid>
+      <description>OAuth 2.0 Flow Example Introduction This module will show in its entirety the requests needed to complete an OAuth 2.0 login. These are the requests specific to Googles OAuth 2.0 Endpoint. They may look a bit different for different providers.
+Getting the Access Code Send the End User to the OAuth Provider The first step is to direct the end user to the server via a GET request with the following parameters.</description>
+    </item>
+    
+    <item>
       <title>RESTful Links</title>
       <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,6 +75,15 @@
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</guid>
       <description>RESTful Links Introduction So far we have not thought too hard about all of the theory behind REST, and we don&amp;rsquo;t really need to. But an important piece we have not talked about and have thus far ignored is using hypermedia to help keep track of the application state.
 Hypermedia is basically media which is linked to other media in a network of nodes. When you click on a URL in a webpage you are following a hyperlink.</description>
+    </item>
+    
+    <item>
+      <title>Advanced API Topics</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/</guid>
+      <description>Advanced API Topics Introduction At the point we should have a pretty good idea of how to generate the bulk of a typical request that is well formatted. But a lot of APIs go beyond this in terms of what they implement. Any good REST API should use status codes to communicate what is going on. In addition we will start paying attention to the Accept header and returning different sorts of data.</description>
     </item>
     
     <item>
@@ -87,15 +126,6 @@ Even if they did want that many results, they might not be able to process them 
     </item>
     
     <item>
-      <title>REST Case Study One</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/</guid>
-      <description> REST Case Study One Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
-    </item>
-    
-    <item>
       <title>API Introduction</title>
       <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,12 +145,13 @@ JavaScript Object Notation This notation is more or less the same notation used 
     </item>
     
     <item>
-      <title>REST Case Study Two</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/</link>
+      <title>MIME Types</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-mime-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/</guid>
-      <description> REST Case Study Two Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-mime-types/</guid>
+      <description>MIME Types Introduction This exploration looks at MIME (Multipurpose Internet Mail Extensions) types, also known as media types. You should have a vague understanding of these maybe from CS290. At least you have probably seen them in a request or response here and there. They typically look something like text/html or application/json.
+These MIME types help the client and server negotiate what data is going to be sent and received.</description>
     </item>
     
     <item>
@@ -150,6 +181,16 @@ JavaScript Object Notation This notation is more or less the same notation used 
       <description>RESTful Relationships Introduction In principle, relationships are not that new or exciting when dealing with a REST API. The same sorts of relationships still exist like they do in a standard relational database. We have one-to-one, one-to-many and many-to-many relationships.
 That said, there are some interesting choices we need to make when returning results.
 Basic Relationships Lets return to our lodging API. /lodgings/:id/guests could very reasonably be expected to return the lists of guests for a particular lodging.</description>
+    </item>
+    
+    <item>
+      <title>Status Codes and Content Types in Node</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-nodejs-implementation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-nodejs-implementation/</guid>
+      <description>Status Codes and Content Types in Node Introduction This looks at the tools at your disposal in Node.js to implement the proper use of status codes and content types. We will go through setting response codes, messages and setting and reading response and request headers.
+Setting Status Codes Using Node.js and Express.js it is very simple to set the response status code. You simply call the response objects status method.</description>
     </item>
     
     <item>

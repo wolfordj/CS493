@@ -8,31 +8,25 @@ weight: 25
 {{< title >}}
 ## Introduction
 <!--- Introduce the topic in this section -->
+This module wraps up some final API topics. These are a little more general and apply to more than just REST but they make for a complete API. Some of this stuff is handled under the hood by some server backends, but sometimes you need to tweak it or add functionality the server does not posses.
 
 ## Key Questions
-<!--- List  key questions
-- Key question 1
-- Key question 2
-    - Key question 2a
-    - Key question 2b
- -->
+- What do status codes in the 200s, 300s and 400s represent?
+- What are MIME types?
+- What headers are associated with negotiating MIME types?
 
 
 ## Assignment Overview
-<!--- Give a general overview of the sort of assignment(s) students will do during the week -->
+This week you will make an API that, while very limited in scope, is fully functional in terms of error handling and will for the first time allow the client to request data in more than one format.
 
 ## Explore the Topics
 <!--- An automatically generated list of explore topics from the same directory as this overview. Generated from the frontmatter, make sure to fill in the title, description and include "Exploration" in the categories! -->
 {{< explorelist >}}
 
 ## Additional Resources
-<!--- Links to 3rd party resources. Things like other YouTube videos or articles
-[Item](URL to item)
-: Description of item
-
-[Item 2](URL to item 2)
-: Description of item 2
--->
+No resources in particular this week. Searching HTTP status codes and MIME types will yield *many* lists of the status codes and APIs. Find one that is organized in a style you like.
 
 ## Review
-<!--- This is where you should encourage students to reflect on what they have learned and make connections to previous material. -->
+This generally wraps up our coverage of REST APIs. Next we will be moving on to authorization and authentication. These are somewhat related to REST in that all APIs have protected content and there are some special ways we deal with that in a REST API, but it really isn't REST specific in the same way that the status codes in this module were not.
+
+Hopefully at this point it should be very clear what makes a REST API restful and what doesn't. If you still are not clear this is really the last chance to get that clarity before the class moves on from the topic.

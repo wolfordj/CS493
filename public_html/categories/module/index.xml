@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/</guid>
-      <description> Advanced REST API Concepts Introduction Key Questions Assignment Overview Explore the Topics REST Case Study OneREST Case Study TwoAdditional Resources Review </description>
+      <description>Advanced REST API Concepts Introduction This module wraps up some final API topics. These are a little more general and apply to more than just REST but they make for a complete API. Some of this stuff is handled under the hood by some server backends, but sometimes you need to tweak it or add functionality the server does not posses.
+Key Questions  What do status codes in the 200s, 300s and 400s represent?</description>
     </item>
     
     <item>
@@ -31,10 +32,10 @@ Key Questions  What is cloud computing? What are the recommending tools and soft
     
     <item>
       <title>Introduction to Docker</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-docker/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-docker/</guid>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-docker/</guid>
       <description> Introduction to Docker Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
     </item>
     
@@ -77,11 +78,12 @@ Key Questions  What are good URLs to use in a REST API? How are routes set up in
     
     <item>
       <title>Some Bits of Security</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-security/</link>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-security/</guid>
-      <description> Some Bits of Security Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/</guid>
+      <description>Some Bits of Security Introduction This module discusses the concept and technical implementation of authorization. It will go over what it means to authorize an entity (and what it does not mean). It will also discuss how one of the most common authorization protocols currently in use, OAuth 2.0 is used.
+Key Questions  Why is authorization needed? What is the difference between authorization and authentication? What is delegated authorization?</description>
     </item>
     
     <item>

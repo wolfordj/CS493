@@ -11,21 +11,32 @@
     
     
     <item>
-      <title>REST Case Study One</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/</link>
+      <title>Advanced API Topics</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/</guid>
-      <description> REST Case Study One Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/</guid>
+      <description>Advanced API Topics Introduction At the point we should have a pretty good idea of how to generate the bulk of a typical request that is well formatted. But a lot of APIs go beyond this in terms of what they implement. Any good REST API should use status codes to communicate what is going on. In addition we will start paying attention to the Accept header and returning different sorts of data.</description>
     </item>
     
     <item>
-      <title>REST Case Study Two</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/</link>
+      <title>MIME Types</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-mime-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/</guid>
-      <description> REST Case Study Two Introduction TOPIC 1 HERE! SUBTOPIC HERE!  where video_identifier is replaced with the id of the video found in the kaltura video URL -- Activity Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-mime-types/</guid>
+      <description>MIME Types Introduction This exploration looks at MIME (Multipurpose Internet Mail Extensions) types, also known as media types. You should have a vague understanding of these maybe from CS290. At least you have probably seen them in a request or response here and there. They typically look something like text/html or application/json.
+These MIME types help the client and server negotiate what data is going to be sent and received.</description>
+    </item>
+    
+    <item>
+      <title>Status Codes and Content Types in Node</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-nodejs-implementation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-nodejs-implementation/</guid>
+      <description>Status Codes and Content Types in Node Introduction This looks at the tools at your disposal in Node.js to implement the proper use of status codes and content types. We will go through setting response codes, messages and setting and reading response and request headers.
+Setting Status Codes Using Node.js and Express.js it is very simple to set the response status code. You simply call the response objects status method.</description>
     </item>
     
   </channel>

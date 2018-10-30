@@ -1,6 +1,6 @@
 ---
-title: "This module will look at some more advanced features of requests that might be overlooked when looking at REST for the first time."
-description: "1"
+title: "Advanced API Topics"
+description: "This module will look at some more advanced features of requests that might be overlooked when looking at REST for the first time."
 categories: ["Exploration"]
 weight: 5
 ---
@@ -34,6 +34,8 @@ The status codes in the 200 range are the codes where everything worked well.
 204 No Content
 : This is the status code we will use for requests which merit a response but are quick to accomplish. For example, if we wanted to delete a resource we don't really have anything to send back to the client, but we want to let the client know it worked and that they should not expect content. That is what a `204 No Content` response is for. It should be used when a request is done, but there is nothing to send back.
 
+{{< kaltura 0_2iu6x77a >}}
+
 ### 3xx Don't Get Lost
 The codes in the 300s are for things which might have moved and the client needs to look elsewhere for them.
 
@@ -48,6 +50,8 @@ The codes in the 300s are for things which might have moved and the client needs
 
 307 Temporary Redirect
 : This tells the client that the resource is found at a different location and that it needs to repeat the same request at that location. So maybe you want to edit a guest via the URL `/loding/:lodgingid/guest/:guestid` with a `PUT`. Your server might use `307 Temporary Redirect` with `/guest/:guestid` to let the client know that is the URL to send the `PUT` to to update the guest. It is not too common to go to this much work and instead your API docs should probably just say to make the `PUT` to the guest root URL to begin with.
+
+{{< kaltura 0_k792w97r >}}
 
 ### 4xx Its the Clients Fault!
 The 400s are used when there was an error with the request sent by the client and it is the clients responsibility to fix it.
@@ -73,13 +77,9 @@ The 400s are used when there was an error with the request sent by the client an
 415 Unsupported Media Type
 : This is a lot like `406` but going the other way. If the **client** sends an unsupported media type to the server the server will respond with this to let the client know it is not acceptable. For example if you tried to `POST` a new lodging but provided YAML instead of JSON in the payload of the `POST`, but the server only accepts new data in JSON format, it would reply with `415 Unsupported Media Type`
 
-### SUBTOPIC HERE!
-<!--- Subtopic headings are at ### -->
-
-<!--- Embed kaltura videos like this {{< kaltura video_identifier >}} where video_identifier is replaced with the id of the video found in the kaltura video URL -->
-
-## Activity
-<!--- Where possible include one or more activities for students to do to further cement their understanding of the topic. They will learn more from doing than reading -->
+{{< kaltura 0_zd9a4k1f >}}
 
 ## Review
-<!--- Encourage students to reflect on what they should have learned from this exploration. -->
+There are quite a few more status codes we don't touch on here, but these are the main ones. Deciding which one to return typically just involves a bunch of conditionals to figure out where you wound up. For example, you would generally look through the 400s first, if any of them match, no point in looking any further because we have to give up on the request.
+
+The 200s and 300s are going to vary based on the sort of request and response. Getting this all implemented typically isn't too technically challenging, but conceptually it can be hard to think through what conditions you need to be thinking about at each step of the request handling.

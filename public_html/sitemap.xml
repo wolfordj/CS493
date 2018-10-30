@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/1-authorization/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/1-course-overview/</loc>
   </url>
   
@@ -15,11 +19,23 @@
   </url>
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/2-oauth-2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/3-oauth-example/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</loc>
   </url>
   
   <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/syllabus/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/</loc>
   </url>
   
   <url>
@@ -43,10 +59,6 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/</loc>
-  </url>
-  
-  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</loc>
   </url>
   
@@ -55,11 +67,11 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-mime-types/</loc>
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/</loc>
   </url>
   
   <url>
@@ -79,6 +91,10 @@
   </url>
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-nodejs-implementation/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/4-tools-setup/</loc>
   </url>
   
@@ -95,11 +111,11 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-docker/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/6-security/</loc>
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-security/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-docker/</loc>
   </url>
   
   <url>

@@ -34,9 +34,11 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               
               
-              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/">REST Case Study One</a>
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/">Advanced API Topics</a>
               
-              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/">REST Case Study Two</a>
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-mime-types/">MIME Types</a>
+              
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-nodejs-implementation/">Status Codes and Content Types in Node</a>
               
               
 
@@ -62,18 +64,19 @@
 
 <!--- Introduce the topic in this section -->
 
+<p>This module wraps up some final API topics. These are a little more general and apply to more than just REST but they make for a complete API. Some of this stuff is handled under the hood by some server backends, but sometimes you need to tweak it or add functionality the server does not posses.</p>
+
 <h2 id="key-questions">Key Questions</h2>
 
-<!--- List  key questions
-- Key question 1
-- Key question 2
-    - Key question 2a
-    - Key question 2b
- -->
+<ul>
+<li>What do status codes in the 200s, 300s and 400s represent?</li>
+<li>What are MIME types?</li>
+<li>What headers are associated with negotiating MIME types?</li>
+</ul>
 
 <h2 id="assignment-overview">Assignment Overview</h2>
 
-<!--- Give a general overview of the sort of assignment(s) students will do during the week -->
+<p>This week you will make an API that, while very limited in scope, is fully functional in terms of error handling and will for the first time allow the client to request data in more than one format.</p>
 
 <h2 id="explore-the-topics">Explore the Topics</h2>
 
@@ -81,14 +84,19 @@
 
 <dl>
     
-    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-case-study-one/">REST Case Study One</a></dt>
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/">Advanced API Topics</a></dt>
     <dd>
-       
+       This module will look at some more advanced features of requests that might be overlooked when looking at REST for the first time.
     </dd>
     
-    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-case-study-two/">REST Case Study Two</a></dt>
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/2-mime-types/">MIME Types</a></dt>
     <dd>
-       
+       We are going to look at MIME types in HTTP and how it applies to REST
+    </dd>
+    
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/3-nodejs-implementation/">Status Codes and Content Types in Node</a></dt>
+    <dd>
+       We looked at the concept of status codes and content types in the prior explorations, this looks at implementing them in Node.js
     </dd>
     
   </dl>
@@ -96,17 +104,13 @@
 
 <h2 id="additional-resources">Additional Resources</h2>
 
-<!--- Links to 3rd party resources. Things like other YouTube videos or articles
-[Item](URL to item)
-: Description of item
-
-[Item 2](URL to item 2)
-: Description of item 2
--->
+<p>No resources in particular this week. Searching HTTP status codes and MIME types will yield <em>many</em> lists of the status codes and APIs. Find one that is organized in a style you like.</p>
 
 <h2 id="review">Review</h2>
 
-<!--- This is where you should encourage students to reflect on what they have learned and make connections to previous material. -->
+<p>This generally wraps up our coverage of REST APIs. Next we will be moving on to authorization and authentication. These are somewhat related to REST in that all APIs have protected content and there are some special ways we deal with that in a REST API, but it really isn&rsquo;t REST specific in the same way that the status codes in this module were not.</p>
+
+<p>Hopefully at this point it should be very clear what makes a REST API restful and what doesn&rsquo;t. If you still are not clear this is really the last chance to get that clarity before the class moves on from the topic.</p>
 
   </div>
 </div>

@@ -1,6 +1,6 @@
 ---
-title: "Some Bits of Security"
-description: "Security in the cloud is a HUGE topic. This will cover authorization and OAuth 2.0, a tiny sliver of security, but an important sliver to be able to play well with others."
+title: "Introduction to Docker"
+description: "Docker is a really great tool for configuring and deploying virtual machines in the cloud. We are going to look at how it works and try deploying some Docker containers."
 categories: ["Module"]
 weight: 35
 ---
