@@ -10,5 +10,24 @@
 	<atom:link href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Brewer&#39;s CAP Theorem</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/1-brewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/1-brewer/</guid>
+      <description>Brewer&amp;rsquo;s CAP Theorem Introduction This entire section can broadly be broken down into the following sentence: consistency, availability and partition fault tolerance, pick two. Eric Brewer proposed the theorem around 2000 and it is still very relevant. Historically relational databases tended to sacrifice availability to ensure data stayed strongly consistent. But many modern database systems to a different approach and that is what we are going to be looking at in this exploration.</description>
+    </item>
+    
+    <item>
+      <title>CAP Examples</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/2-cap-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/2-cap-examples/</guid>
+      <description>CAP Examples Introduction In this exploration we are going to look at a couple real world examples of databases and discuss how they handle the constraints put forward in the CAP theorem. It would be a fair amount of work to configure these things to simply see them not work or to get the inconsistent results yourself, but you are welcome to give them a shot!
+ MySQL We are going to talk about two different MySQL configurations.</description>
+    </item>
+    
   </channel>
 </rss>

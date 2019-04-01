@@ -38,6 +38,17 @@
     </item>
     
     <item>
+      <title>Docker Overview</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/1-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/1-intro/</guid>
+      <description>Docker Overview Introduction Docker is an open-source container platform. It is probably today’s most popular way to containerize software. There are several tools that are part of the Docker platform, but the most essential one is a tool for simply creating and running containers.
+Files, Images and Containers As we talk about Docker we are frequently going to be referencing Docker files, images and containers.
+ Docker Files These are written specifications of a Docker image.</description>
+    </item>
+    
+    <item>
       <title>Introduction to REST</title>
       <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -68,6 +79,15 @@ Getting the Access Code Send the End User to the OAuth Provider The first step i
     </item>
     
     <item>
+      <title>OpenID Connect</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/1-authorization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/1-authorization/</guid>
+      <description>OpenID Connect Introduction OpenID Connect is a authentication protocol that sits on top of the OAuth 2.0 Authorization protocol. There were multiple attempts to get OpenID to become an authentication standard but they generally failed as they tended to be more complex than standards like OAuth. So people started misusing OAuth to do authentication. In response OpenID Connect was created to give people an option to easily add authentication to the OAuth login flow.</description>
+    </item>
+    
+    <item>
       <title>RESTful Links</title>
       <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -84,6 +104,15 @@ Hypermedia is basically media which is linked to other media in a network of nod
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/</guid>
       <description>Advanced API Topics Introduction At the point we should have a pretty good idea of how to generate the bulk of a typical request that is well formatted. But a lot of APIs go beyond this in terms of what they implement. Any good REST API should use status codes to communicate what is going on. In addition we will start paying attention to the Accept header and returning different sorts of data.</description>
+    </item>
+    
+    <item>
+      <title>Brewer&#39;s CAP Theorem</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/1-brewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/1-brewer/</guid>
+      <description>Brewer&amp;rsquo;s CAP Theorem Introduction This entire section can broadly be broken down into the following sentence: consistency, availability and partition fault tolerance, pick two. Eric Brewer proposed the theorem around 2000 and it is still very relevant. Historically relational databases tended to sacrifice availability to ensure data stayed strongly consistent. But many modern database systems to a different approach and that is what we are going to be looking at in this exploration.</description>
     </item>
     
     <item>
@@ -126,12 +155,50 @@ Even if they did want that many results, they might not be able to process them 
     </item>
     
     <item>
+      <title>Security Overview</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/2-security-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/2-security-overview/</guid>
+      <description>Security Overview Introduction Security is a topic that is relevant to really all software, but I would argue it is exceptionally relevant to cloud software for a couple reasons. First is that often times other software providers will be using or relying on your software, so not only do you have to worry about your customers, but also the customers of other developers who might be using your software. The other aspect is that the whole point of the cloud is to have an application that is accessible from anywhere.</description>
+    </item>
+    
+    <item>
       <title>API Introduction</title>
       <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</guid>
       <description>API Introduction Introduction An Application Programming Interface or API is the mechanism by which a programmer might interface with an application. APIs exists at almost all levels of the software stack. Operating systems expose systems calls as an API that allows access to the lower levels of the operating system. C++ libraries expose APIs that allow you to access various data structures or features in the language. The standard template library is a good example of this.</description>
+    </item>
+    
+    <item>
+      <title>Authentication in Node</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/3-node-authorization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/3-node-authorization/</guid>
+      <description>Authentication in Node Introduction This program demonstrates how one could go about implementing a simple authorization system in Node.js relying on a 3rd party to store usernames and passwords.
+This particular flow is not as secure as it could be because the client needs to provide the username and password to my API for it to be relayed on to the Auth0 server. In a more robust flow they would be redirected to Auth0 via a browser.</description>
+    </item>
+    
+    <item>
+      <title>Basic Docker Use</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/2-basic-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/2-basic-use/</guid>
+      <description>Basic Docker Use Introduction In this exploration we will go through the steps of running a docker container locally. This is a bit easier to work with because if anything goes wrong you will get the error messages on your local machine. If you are trying to directly deploy an image or Docker file to a cloud provider then you very likely will need to rely on things like error logs to debug which can be more time consuming.</description>
+    </item>
+    
+    <item>
+      <title>CAP Examples</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/2-cap-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/2-cap-examples/</guid>
+      <description>CAP Examples Introduction In this exploration we are going to look at a couple real world examples of databases and discuss how they handle the constraints put forward in the CAP theorem. It would be a fair amount of work to configure these things to simply see them not work or to get the inconsistent results yourself, but you are welcome to give them a shot!
+ MySQL We are going to talk about two different MySQL configurations.</description>
     </item>
     
     <item>
@@ -161,6 +228,15 @@ These MIME types help the client and server negotiate what data is going to be s
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</guid>
       <description>Demo of REST API Use Introduction We are going to walk through using a real live API to see what it practically looks like to do these sorts of tasks. This video uses the Box API reference as a guide when it comes to setting up the calls. This API is well documented and shows examples for every call. The Postman API tool is used to interact with the API via a somewhat graphical interface.</description>
+    </item>
+    
+    <item>
+      <title>Docker Files</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/3-docker-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/3-docker-files/</guid>
+      <description>Docker Files Introduction We have so far taken a good look at how to get images and how to make containers from them. What we haven&amp;rsquo;t really looked at is how we can make our own images. To do that we need to use Docker files. These files specify the steps required to create an image. It will include things like picking a base image, copying files into the image and running commands within the image.</description>
     </item>
     
     <item>
@@ -211,6 +287,16 @@ Postman Setting this one up is pretty straight forward.</description>
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/4-use-demo/</guid>
       <description>Demo of Intermediate REST API Features Introduction This video looks at the lodging application as it is being updated to include more intermediate features. The Gist with the code sample can be found here. This isn&amp;rsquo;t a complete and functioning API, it is only built to showcase some important features and show how to do some specific tasks using Node.js and Google App Engine.
 Lodging v2 Overview  Review Between the complete examples in the Google App Engine documentation and this walkthrough that addresses some of the points that are not really hit on in the Google documentation you should be in a position where you can set up simple relationships, implement one-way paging using a cursor and implement links within an API.</description>
+    </item>
+    
+    <item>
+      <title>Docker on the Cloud</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/4-docker-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/4-docker-cloud/</guid>
+      <description>Docker on the Cloud Introduction So now we have worked with some Docker containers locally and have made some docker images ourselves. Now we need to look at how we can go beyond using these things locally on our computer and instead figure out how to deploy them onto some variety of cloud service.
+Google Container Registry Many cloud providers provide a place to store containers, images or Dockerfiles. Getting the file to the Google Container Store should be pretty easy.</description>
     </item>
     
   </channel>

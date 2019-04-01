@@ -62,7 +62,7 @@ So when the client sends the access code to the server, it also sends a code tha
 ### Whats up with the First Secret Phrase?
 When the client sends the end-user to the server it gives them a random secret phrase. This is to prevent XSRF attacks. Discussing these is beyond the scope of this class. But the basic idea is that this proves the end-user started at the client's site and not from some other malicious site.
 
-{{< kaltura 0_pkg8jisa >}}
+{{< kaltura 0_d06uhkjh >}}
 
 ### Implicit Flow
 The implicit flow, also known as the client side flow is a bit different. It is used for purely client side (in this case client side meaning controlled by the end user) applications. This is what the implicit flow looks like:
@@ -81,7 +81,7 @@ Also worth noting is that the client app is not required to verify the token wit
 
 In general we won't worry about the implicit flow in this class but it is good to know about.
 
-{{< kaltura 0_bytxu7au >}}
+{{< kaltura 0_ytrua01p >}}
 
 ### Mobile Apps
 Finally lets talk about mobile and desktop apps. If you were really considering things carefully you might be noticing a potential problem if you want to use the server side flow with a mobile or desktop app. The issue is that the client secret will never be able to be kept secret if the desktop or mobile app is acting as the client.

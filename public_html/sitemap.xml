@@ -15,6 +15,10 @@
   </url>
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/1-intro/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/1-rest-intro/</loc>
   </url>
   
@@ -27,6 +31,10 @@
   </url>
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/1-authorization/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/1-internal-links/</loc>
   </url>
   
@@ -36,6 +44,10 @@
   
   <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/5-advanced-rest-api/1-request-specifics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/1-brewer/</loc>
   </url>
   
   <url>
@@ -59,7 +71,23 @@
   </url>
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/2-security-overview/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/1-course-rest-cloud-overview/3-api-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/3-node-authorization/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/2-basic-use/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/2-cap-examples/</loc>
   </url>
   
   <url>
@@ -76,6 +104,10 @@
   
   <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/4-use-demo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/3-docker-files/</loc>
   </url>
   
   <url>
@@ -103,6 +135,10 @@
   </url>
   
   <url>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/4-docker-cloud/</loc>
+  </url>
+  
+  <url>
     <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/</loc>
   </url>
   
@@ -115,11 +151,11 @@
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-docker/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/</loc>
   </url>
   
   <url>
-    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-oauth-provider-creation/</loc>
+    <loc>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/</loc>
   </url>
   
   <url>

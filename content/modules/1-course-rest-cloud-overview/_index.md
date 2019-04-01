@@ -29,7 +29,10 @@ The assignment this week involves a very minimal amount of writing code. Instead
 : This is the tool you will probably want to use to interact with APIs that don't otherwise provide a GUI. It makes it easier to send requests, set up payloads and view responses. It can also handle sending OAuth tokens.
 
 [Google App Engine Node.js Standard Environment](https://cloud.google.com/appengine/docs/standard/nodejs/)
-: This is a link to the documentation for the Google App Engine Node.js Standard Environment. This is the primary platform we will be using to host our APIs in this course.
+: This is a link to the documentation for the Google App Engine Node.js Standard Environment. It is one of two options for the platforms supported in this class.
+
+[Google App Engine Python Standard Environment](https://cloud.google.com/appengine/docs/standard/python3/)
+: This is a link to the documentation for the Google App Engine Python 3 Standard environment. It is the other option for platforms supported in this class.
 
 ## Review
 After this week you should be confident that you have all the software set up and the accounts you need in order to interact with APIs as well as host your own API that others can access. There isn't a whole lot of content that you need to learn this week. This is intentional to make sure you have time to get everything set up and working. For some folks this may be a 20 minute process, others may run into technical issues that take some time to debug. Make sure to use this week to get that debugging done.

@@ -27,6 +27,23 @@
           
           
           
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Explorations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+              
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/1-brewer/">Brewer&#39;s CAP Theorem</a>
+              
+              <a class="dropdown-item" href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/2-cap-examples/">CAP Examples</a>
+              
+              
+
+              
+            </div>
+          </li>
+          
           
         </ul>
         </form>
@@ -43,20 +60,15 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<!--- Introduce the topic in this section -->
+<p>Relational databases enforce a number of rules to make sure that all the operations that occur are OK and that data remains consistent. This causes some issues where it can be difficult to distribute computations between different computers. It can also slow down processing. Non-relational databases may operate similarly in 99.9% of cases, but it is the edge cases under high load or where timing is important that things can get funny. And it depends a lot on the implementation of the database engine exactly how they get funny.</p>
 
 <h2 id="key-questions">Key Questions</h2>
 
-<!--- List  key questions
-- Key question 1
-- Key question 2
-    - Key question 2a
-    - Key question 2b
- -->
-
-<h2 id="assignment-overview">Assignment Overview</h2>
-
-<!--- Give a general overview of the sort of assignment(s) students will do during the week -->
+<ul>
+<li>What is the difference between a relational and non-relational database?</li>
+<li>What happens when a database isn&rsquo;t consistent?</li>
+<li>What happens when a database uses eventual consistency?</li>
+</ul>
 
 <h2 id="explore-the-topics">Explore the Topics</h2>
 
@@ -64,22 +76,29 @@
 
 <dl>
     
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/1-brewer/">Brewer&#39;s CAP Theorem</a></dt>
+    <dd>
+       This goes over the limitations of database engines at a fairly high level. There is a lot more nuance these days with database engines, but these tradeoffs still exist.
+    </dd>
+    
+    <dt><a href="http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/2-cap-examples/">CAP Examples</a></dt>
+    <dd>
+       This exploration looks at a few different database systems in terms of the CAP theorem.
+    </dd>
+    
   </dl>
     
 
 <h2 id="additional-resources">Additional Resources</h2>
 
-<!--- Links to 3rd party resources. Things like other YouTube videos or articles
-[Item](URL to item)
-: Description of item
-
-[Item 2](URL to item 2)
-: Description of item 2
--->
+<dl>
+<dt><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.20.1495&amp;rep=rep1&amp;type=pdf">Brewers CAP Theorem</a></dt>
+<dd>This paper looks at Brewer&rsquo;s CAP theorem in a good bit of theoretical details. A good bit has changed since this was originally conceived, but it gives you a good understanding of the original conjecture.</dd>
+</dl>
 
 <h2 id="review">Review</h2>
 
-<!--- This is where you should encourage students to reflect on what they have learned and make connections to previous material. -->
+<p>The important take away from this is that databases handle things like delays in signals or down nodes in very different ways. Traditional relational databases will do everything they possibly can to keep your data consistent and reject attempts that might cause problems. Other databases which have fewer relational constraints will do everything they can to make sure transactions get processed. Even it it means that things don&rsquo;t make sense for a moment in the database. And this is something of a spectrum. There are databases that end up somewhere in the middle. Understanding the sorts of limitations you might encounter and understanding how to deal with them are important when learning a new database system.</p>
 
   </div>
 </div>

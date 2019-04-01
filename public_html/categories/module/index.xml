@@ -31,21 +31,23 @@ Key Questions  What is cloud computing? What are the recommending tools and soft
     </item>
     
     <item>
-      <title>Introduction to Docker</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-docker/</link>
+      <title>Docker</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-docker/</guid>
-      <description> Introduction to Docker Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-docker/</guid>
+      <description>Docker Introduction Containerization is a modern computing paradigm in which application software is run within an environment that is virtualized at the operating system level. Docker is a tool that has become very popular to make these containers and can be used on many cloud providers as a way to configure computing instances on those providers.
+Key Questions  What are the use cases for a tool like Docker? What is the difference between containers and virtual machines?</description>
     </item>
     
     <item>
-      <title>Making an OAuth 2.0 Provider</title>
-      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-oauth-provider-creation/</link>
+      <title>More Authorization and Authentication</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/8-oauth-provider-creation/</guid>
-      <description> Making an OAuth 2.0 Provider Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/7-more-security/</guid>
+      <description>More Authorization and Authentication Introduction We have covered the major aspects of working with setting up an API and working with other cloud providers. The topics covered in this section are going to look at some broader concepts related to cloud computing along with a couple specific technical topics that we didn&amp;rsquo;t have time to cover earlier.
+Key Questions  How does Open ID Connect work in conjunction with OAuth 2.</description>
     </item>
     
     <item>
@@ -54,7 +56,7 @@ Key Questions  What is cloud computing? What are the recommending tools and soft
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/9-nosql/</guid>
-      <description> Non-Relational Databases Introduction Key Questions Assignment Overview Explore the Topics Additional Resources Review </description>
+      <description>Non-Relational Databases Introduction Relational databases enforce a number of rules to make sure that all the operations that occur are OK and that data remains consistent. This causes some issues where it can be difficult to distribute computations between different computers. It can also slow down processing. Non-relational databases may operate similarly in 99.9% of cases, but it is the edge cases under high load or where timing is important that things can get funny.</description>
     </item>
     
     <item>

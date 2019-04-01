@@ -70,7 +70,7 @@ The `access_token` is the OAuth 2.0 token. The `id_token` is used for authentica
 ### Making Requests Using the Token
 Subsiquent requests to the server need to contain a `Authorization` header set to `Bearer ya..fk`. This is the way of communicating the value of the token to the server so it knows you are authorized to access the protected resource and that is it.
 
-{{< kaltura 0_ql02uxg8 >}}
+{{< kaltura 0_3ofu0ovj >}}
 
 ## Review
 As is the way of things when dealing with the web, there are lots and lots of strings, where things like capitalization and character encoding are really important. There are lots of libraries out there to do this stuff. If you ever want to use OAuth 2.0 in production use a library. But there is very little that will replace hand coding a client to build understanding of how the underlying system works. This can make it much easier to learn how to use new libraries and understand things like security risks. Hopefully this gave you an idea as to how OAuth 2.0 works.

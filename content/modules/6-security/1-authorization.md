@@ -25,7 +25,7 @@ So some time later the Keeper of Driver Test Records gets a request to find out 
 
 The Keeper of Driver Test Records has no idea who Speed Racer is. The Keeper did nothing to verify the identity of Speed Racer, but the Keeper does have authorization to issue the license and bill the credit card because the DMV provided documentation to do exactly that.
 
-{{< kaltura 0_h6byggix >}}
+{{< kaltura 0_2eeoscdb >}}
 
 ### Delegated Authorization
 Delegated authorization is one of the more common ways of dealing with authorization between a single end-user and a lot of on-line systems that they use, especially when those on-line systems operate even when the user is away. Consider an on-line message board.
@@ -42,7 +42,7 @@ It would be a terrible mistake for Facebook to assume that because someone is us
 
 The whole point of delegated authorization is that the person who is delegating permissions to access their protected resources need not be around or involved in the process directly.
 
-{{< kaltura 0_6alx7mev >}}
+{{< kaltura 0_canhxrq5 >}}
 
 ## Review
 This was the non-technical description of authorization and delegated authorization. We discussed authentication as well because it is very, very often confused with authentication and it is important to make the distinction between them. But for this portion of the class we are only going to be focusing on authorization which is important to remember if you ever want to apply this to make a secure system.
