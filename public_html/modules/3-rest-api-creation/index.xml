@@ -38,5 +38,16 @@ What are the main Types? From the last section, we know there are broadly two so
       <description>Google App Engine and Node.js Introduction It can be difficult getting a new tool or library up or running. I would encourage you to try this weeks assignment without going through this section. Once you depart school and are working professionally you likely will be tasked with sometimes setting up new projects from scratch. This is often a challenging task as knowing where to start can be hard to figure out.</description>
     </item>
     
+    <item>
+      <title>Google App Engine and Python</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/4-gae-python-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/3-rest-api-creation/4-gae-python-basics/</guid>
+      <description>Google App Engine and Python Introduction Ther are a lot of similarities between the process for the Python application and the Node.js application.
+Once you have the Google Cloud tools installed (which is the same process regardless of Node.js or Python) you might want to go through steps 1-4 of the Python getting started tutorial.
+This guide will get you the very basics of the datastore set up and give you an API referece.</description>
+    </item>
+    
   </channel>
 </rss>
