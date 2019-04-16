@@ -47,5 +47,17 @@ JavaScript Object Notation This notation is more or less the same notation used 
       <description>Demo of REST API Use Introduction We are going to walk through using a real live API to see what it practically looks like to do these sorts of tasks. This video uses the Box API reference as a guide when it comes to setting up the calls. This API is well documented and shows examples for every call. The Postman API tool is used to interact with the API via a somewhat graphical interface.</description>
     </item>
     
+    <item>
+      <title>API Testing</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/5-api-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/2-rest-api-use/5-api-testing/</guid>
+      <description>API Testing Introduction This module will look at the more practical aspects of writing API tests with the Postman testing too.
+Good Practices When creating a testing suite there are some things to consider to make your work more streamlined and thorough.
+Assume nothing When testing an API it is best to approach developing a testing suite without any preconceived notions. This means a few things:
+ You cannot assume anything about the API works correctly so you must test even the most basic functionality Your testing suite should be data/state agnostic, meaning it runs no matter the current state of data on the server   Start small As mentioned above, you must begin by testing the most basic functionalities of an API.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -47,5 +47,7 @@ for e in results:
 
 Without this the id would not be part of the returned JSON.
 
+{{< kaltura 0_ywq1s6qd >}}
+
 ## Review
 This should give you a pretty solid platform with which to work. From here you can change the names or properties of entities. You could work on further abstraction or you could just use this as a basic idea and make your own implementation just borrowing some ideas from this one.
