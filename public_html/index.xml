@@ -322,5 +322,15 @@ Once you have the Google Cloud tools installed (which is the same process regard
 This guide will get you the very basics of the datastore set up and give you an API referece.</description>
     </item>
     
+    <item>
+      <title>Demo of Intermediate REST API Features in Python</title>
+      <link>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/5-use-demo-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://classes.engr.oregonstate.edu/eecs/perpetual/cs493-400/modules/4-more-rest-api-creation/5-use-demo-python/</guid>
+      <description>Demo of Intermediate REST API Features in Python Introduction This exploration looks at the lodging application as it is being updated to include more intermediate features. The Gist with the code sample can be found here. This isn&amp;rsquo;t a complete and functioning API, it is only built to showcase some important features and show how to do some specific tasks using Python and Google App Engine.
+Points of Interest Use of Blueprints .</description>
+    </item>
+    
   </channel>
 </rss>
